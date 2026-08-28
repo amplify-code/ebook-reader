@@ -1,0 +1,51 @@
+{
+    "name": "@amplifycode/ebook-reader",
+    "version": "1.0.0",
+    "description": "Headless Vue 3 ebook reading surface: page-turning spread, zoom, swipe and link hotspots, with all chrome left to the host.",
+    "keywords": [
+        "vue",
+        "vue3",
+        "ebook",
+        "reader",
+        "book",
+        "flipbook",
+        "page-turn",
+        "pan-zoom",
+        "component"
+    ],
+    "license": "MIT",
+    "author": "Colin Cameron <colin@amplifycode.com>",
+    "homepage": "https://github.com/amplify-code/ebook-reader#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amplify-code/ebook-reader.git"
+    },
+    "bugs": {
+        "url": "https://github.com/amplify-code/ebook-reader/issues"
+    },
+    "type": "module",
+    "main": "src/index.js",
+    "module": "src/index.js",
+    "exports": {
+        ".": "./src/index.js",
+        "./EbookReader.vue": "./src/EbookReader.vue",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "sideEffects": [
+        "*.vue"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.0"
+    },
+    "dependencies": {
+        "@thesoulfresh/pan-z": "^1.2.8"
+    }
+}
