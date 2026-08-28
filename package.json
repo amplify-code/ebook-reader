@@ -1,5 +1,5 @@
 {
-    "name": "@amplifycode/ebook-reader",
+    "name": "@amplify-code/ebook-reader",
     "version": "1.0.0",
     "description": "Headless Vue 3 ebook reading surface: page-turning spread, zoom, swipe and link hotspots, with all chrome left to the host.",
     "keywords": [
